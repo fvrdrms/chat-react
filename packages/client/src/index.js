@@ -12,10 +12,8 @@ ReactDOM.render(
       <BrowserRouter>
         <ColorModeScript initialColorMode={theme.config.initialColorMode} />
         <App />
-      </BrowserRouter>  
+      </BrowserRouter>
     </ChakraProvider>
-
-
   </React.StrictMode>,
   document.getElementById("root")
 );
